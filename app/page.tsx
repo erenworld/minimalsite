@@ -25,13 +25,13 @@ export default async function Home() {
     <div className="flex flex-col gap-16 md:gap-24">
       <div className="flex animate-in flex-col gap-8">
         <Image
-          src={Avatar}
+{/*           src={Avatar}
           width={100}
           height={100}
           alt="avatar"
           className="rounded-full bg-secondaryA"
           style={{ "--index": 1 } as React.CSSProperties}
-        />
+        /> */}
         <div
           className="animate-in space-y-4"
           style={{ "--index": 2 } as React.CSSProperties}
