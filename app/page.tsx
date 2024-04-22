@@ -24,8 +24,8 @@ export default async function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24">
       <div className="flex animate-in flex-col gap-8">
-        <Image
-{/*           src={Avatar}
+  {/*        <Image
+         src={Avatar}
           width={100}
           height={100}
           alt="avatar"
