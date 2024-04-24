@@ -8,8 +8,8 @@ const CraftIcon = () => {
       strokeLinejoin="round" // Change snake_case to camelCase
       viewBox="0 0 16 16"
       width="22"
-      className="mr-2 pt-1"
-      style={{ color: "currentColor" }} // Inline style should be an object
+      className="mr-2 animate-in pt-1 text-secondary"
+      // Inline style should be an object
     >
       <path
         fillRule="evenodd" // Change snake_case to camelCase

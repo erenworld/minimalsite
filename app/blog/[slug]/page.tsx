@@ -48,10 +48,10 @@ export async function generateMetadata(
     : `https://b-r.io/api/og?title=${title}`;
 
   const metadata: Metadata = {
-    title: `${title} | Eren Ruiz`,
+    title: `${title} | Eren Turkoglu`,
     description,
     openGraph: {
-      title: `${title} | Eren Ruiz`,
+      title: `${title} | Eren Turkoglu`,
       description,
       type: "article",
       publishedTime,
@@ -81,13 +81,13 @@ export default async function Post({ params }: { params: any }) {
             <p className="text-secondary">{post.summary}</p>
           </div>
           <div className="flex max-w-none items-center gap-4">
-            <Image
+            {/* <Image
               src={Avatar}
               width={40}
               height={40}
               alt="avatar"
               className="rounded-full bg-secondary"
-            />
+            /> */}
             <div className="leading-tight">
               <p className="text-primary">Eren Turkoglu</p>
               <p className="text-secondary">

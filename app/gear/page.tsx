@@ -10,6 +10,7 @@ import EpidemicSound from "public/gear/epidemic-sound.png";
 import Keyboard from "public/gear/keeb.jpeg";
 import Macrofactor from "public/gear/macrofactor.webp";
 import CraftIcon from "./CraftIcon";
+import InstaIcon from "./InstaIcon";
 
 export const metadata: Metadata = {
   title: "Craft | Eren",
@@ -93,41 +94,53 @@ export default function Gear() {
         </h1> */}
 
         <div className="">
-          <div className="mb-8">
+          <div className="mb-28">
             <div className="mb-3 flex">
               <CraftIcon />
-              <h1>Monday - February 10, 2024</h1>
+              <h1 className="animate-in text-secondary">
+                Monday - February 10, 2024
+              </h1>
             </div>
             <video
               loop
               autoPlay
               muted
-              className="mb-8 rounded-xl"
+              className="mb-3 animate-in rounded-xl"
               src="https://cdn.rauno.me/graph-slider-2.mp4#t=0.01"
             ></video>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
-              pariatur quas nemo in repudiandae beatae unde quod voluptate
-              consectetur reiciendis.
-            </p>
+            <div className="mt-1.5  flex animate-in items-center gap-6 text-sm text-tertiary ">
+              <div className="flex  animate-in items-center gap-1.5 hover:text-primary">
+                <InstaIcon />
+                <span>00 likes</span>
+              </div>
+              <div className="flex  animate-in items-center gap-1.5 hover:text-primary">
+                <span>00 replies</span>
+              </div>
+            </div>
           </div>
-          <div>
+          <div className="mb-28">
             <div className="mb-3 flex">
               <CraftIcon />
-              <h1>Tuesday - January 22, 2024</h1>
+              <h1 className="animate-in text-secondary">
+                Tuesday - January 22, 2024
+              </h1>
             </div>
             <video
               loop
               autoPlay
               muted
-              className="mb-3 rounded-xl"
+              className="mb-3 animate-in rounded-xl"
               src="https://cdn.rauno.me/adaptive-precision-5.mp4#t=0.01"
             ></video>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
-              pariatur quas nemo in repudiandae beatae unde quod voluptate
-              consectetur reiciendis.
-            </p>
+            <div className="mt-1.5  flex animate-in items-center gap-6 text-sm text-tertiary ">
+              <div className="flex  animate-in items-center gap-1.5 hover:text-primary">
+                <InstaIcon />
+                <span>00 likes</span>
+              </div>
+              <div className="flex  animate-in items-center gap-1.5 hover:text-primary">
+                <span>00 replies</span>
+              </div>
+            </div>
           </div>
         </div>
         {/* <ul className="animated-list grid gap-x-6 gap-y-8 md:grid-cols-2">
@@ -147,6 +160,8 @@ export default function Gear() {
                   return null;
                 }
               })}
+
+              
             </ul> */}
         {/* <h2 className="text-secondary">Eren</h2> */}
         {/* {categories.map((category, index) => (
