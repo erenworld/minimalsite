@@ -26,7 +26,7 @@ export default async function YouTube() {
         <p className="text-secondary">@erenturkoglu</p>
         <Link
           className="mt-auto flex items-center gap-1.5 rounded-full bg-secondary px-4 py-1.5 text-sm no-underline hover:bg-tertiary"
-          href="https://youtube.com/@Brianruizy?sub_confirmation=1"
+          href="https://youtube.com/@erenerenworld"
         >
           <span className="font-medium text-primary">Subscribe</span>
           {/* <span className="text-tertiary">1.2k</span> */}
