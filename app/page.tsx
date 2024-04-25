@@ -24,13 +24,11 @@ export default async function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24">
       <div className="flex animate-in flex-col gap-8">
-<<<<<<< HEAD
-  {/*        <Image
+        {/*        <Image
          src={Avatar}
 =======
         {/* <Image
           src={Avatar}
->>>>>>> bfeec96 (like and comment)
           width={100}
           height={100}
           alt="avatar"
@@ -42,7 +40,7 @@ export default async function Home() {
           style={{ "--index": 2 } as React.CSSProperties}
         >
           <h1 className="text-3xl font-bold tracking-tight text-primary">
-            Eren Turkoglu
+            Eren Becker
           </h1>
           <p className="max-w-lg leading-relaxed text-secondary">
             Hi there, I&apos;m a design engineer who builds for the web with a

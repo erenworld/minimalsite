@@ -29,7 +29,7 @@ export default async function YouTube() {
           href="https://youtube.com/@Brianruizy?sub_confirmation=1"
         >
           <span className="font-medium text-primary">Subscribe</span>
-          <span className="text-tertiary">1.2k</span>
+          {/* <span className="text-tertiary">1.2k</span> */}
         </Link>
       </div>
       <div className="grid w-full grid-cols-2 grid-rows-2 gap-3">
@@ -47,7 +47,7 @@ export default async function YouTube() {
             />
           </Link>
         ))} */}
-        <Link
+        {/* <Link
           className="relative col-span-1 row-span-1"
           href={"https://youtu.be/j68U1wBplk8"}
         >
@@ -90,7 +90,7 @@ export default async function YouTube() {
             alt="thumbnail"
             className="rounded-lg border border-secondary object-cover hover:opacity-75"
           />
-        </Link>
+        </Link> */}
       </div>
     </Card>
   );

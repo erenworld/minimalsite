@@ -39,22 +39,22 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "YouTube",
-    href: "https://www.youtube.com/@brianruizy",
+    href: "https://www.youtube.com/@erenerenworld",
     icon: <FaYoutube />,
   },
   {
     label: "GitHub",
-    href: "https://github.com/brianruizy",
+    href: "https://github.com/erenworld",
     icon: <FaGithub />,
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/brianruizy/",
+    href: "https://www.instagram.com/erenxturkoglu/",
     icon: <FaInstagram />,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/brianruizy/",
+    href: "https://www.linkedin.com/in/erenturkoglu/",
     icon: <FaLinkedin />,
   },
 ];

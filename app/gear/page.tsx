@@ -94,7 +94,7 @@ export default function Gear() {
         </h1> */}
 
         <div className="">
-          <div className="mb-28">
+          {/* <div className="mb-28">
             <div className="mb-3 flex">
               <CraftIcon />
               <h1 className="animate-in text-secondary">
@@ -117,7 +117,7 @@ export default function Gear() {
                 <span>00 replies</span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="mb-28">
             <div className="mb-3 flex">
               <CraftIcon />

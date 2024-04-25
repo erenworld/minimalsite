@@ -4,7 +4,7 @@ import Link from "@/components/ui/Link";
 export default function Gumroad() {
   return (
     <Link
-      href="https://gumroad.com/erenturkoglu"
+      href="https://erenxturkoglu1.gumroad.com/"
       className="col-span-1 row-span-1 no-underline"
     >
       <Card className="flex aspect-square flex-col gap-1.5">

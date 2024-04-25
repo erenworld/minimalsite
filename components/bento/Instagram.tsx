@@ -14,7 +14,7 @@ export default function Instagram() {
         href="https://instagram.com/erenxturkoglu"
       >
         <span className="font-medium text-primary">Follow</span>
-        <span className="text-tertiary">302</span>
+        {/* <span className="text-tertiary">302</span> */}
       </Link>
     </Card>
   );

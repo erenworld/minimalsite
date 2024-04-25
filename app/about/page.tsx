@@ -7,8 +7,8 @@ import ConnectLinks from "../../components/ConnectLinks";
 import Workplaces from "./components/Workplaces";
 import Gallery from "./components/Gallery";
 
-import hinesLogo from "public/work/hines-logo.jpeg";
-import perishipLogo from "public/work/periship-logo.jpeg";
+import hinesLogo from "public/work/eren1.jpg";
+import perishipLogo from "public/work/eren2.jpg";
 import camsLogo from "public/work/cams-logo.png";
 import uhdLogo from "public/work/uhd.png";
 
@@ -128,8 +128,7 @@ export default function About() {
           <div className="flex w-full flex-col gap-8">
             <p>
               I specialize in Javascript, React, Next and product design. But I
-              am always learning new things. Here are some of the places I have
-              worked.
+              am always learning new things.
             </p>
             <Workplaces items={workplaces} />
           </div>
@@ -141,17 +140,17 @@ export default function About() {
 
 const workplaces = [
   {
-    title: "Design Engineer",
-    company: "Henoo",
+    title: "Software Engineer",
+    company: "Search",
     time: "Now",
     imageSrc: hinesLogo,
-    link: "https://hines.com",
+    link: "https://www.linkedin.com/in/erenturkoglu/",
   },
   {
-    title: "Design Engineer",
+    title: "Software Engineer",
     company: "Independant",
     time: "2024 - Now",
     imageSrc: perishipLogo,
-    link: "https://peripharma.com/",
+    link: "https://www.linkedin.com/in/erenturkoglu/",
   },
 ];

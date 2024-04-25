@@ -42,7 +42,7 @@ export default function Mediakit() {
             <p className="z-50 text-sm text-secondary">
               Creator based in Nancy. Focuses on topics including consumer
               technology, software engineering, design, and lifestyle.{" "}
-              <Link href="https://www.youtube.com/@brianruizy" underline>
+              <Link href="https://www.youtube.com/@erenerenworld" underline>
                 Visit channel.
               </Link>
             </p>
